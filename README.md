@@ -3,6 +3,13 @@
 You can use the [editor on GitHub](https://github.com/lara-spearman/hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```{r}
+# Source: http://www.htmlwidgets.org/showcase_plotly.html
+library(plotly)
+p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
+            geom_bar(position = "dodge")
+ggplotly(p)
+```
 
 ### Contents of this page 
 1. Trial review page
