@@ -18,6 +18,7 @@ Members should appear here
    <summary> 
  Course 1: {{ site.data.courses[0].course }}
    </summary>
+   {{site.data.courses[0].rating }}
   </details>
  </li>
  <li>
