@@ -8,8 +8,8 @@ Members should appear here
 {% for member in site.data.courses %}
   <li>
     
-      course.name
-      course.rating
+      {{ course.name }}
+      {{ course.rating }}
     
   </li>
 {% endfor %}
