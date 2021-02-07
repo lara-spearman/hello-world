@@ -15,7 +15,7 @@ Members should appear here
  This is first course {{ site.data.courses[course] }}
 {% endif %}
 
-{{ site.data.courses[1] }}
+{{ site.data.courses[0] }}
 
 
 
