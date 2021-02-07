@@ -16,7 +16,7 @@ Members should appear here
  <li>
   <details>
    <summary> 
- Course 1: {{ site.data.courses[0].course }}
+ Course 1: {{ site.data.courses.course =="A" }}
    </summary>
    {{ site.data.courses[0].rating }}
   </details>
