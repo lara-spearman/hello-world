@@ -11,7 +11,6 @@ Members should appear here
  Show {{ page.title }}
 {% endif %}
     
-{% assign course1 = site.data.courses.course | where "course", "A" %}
 
 
 {% if site.data.courses %}
