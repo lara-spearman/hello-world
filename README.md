@@ -14,7 +14,7 @@ Members should appear here
 {% if site.data.courses %}
  This is first course {{ site.data.courses[course] }}
 {% endif %}
-
+Update
 {{ site.data.courses[0] }}
 
 
