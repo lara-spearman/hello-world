@@ -14,7 +14,7 @@ Members should appear here
 {% assign course1 = site.data.courses.course | where "course", "A" %}
 
 Course 1: 
-{% for course in site.data.courses.course %}
+{% for course in course1 %}
 -{{ site.data.courses.rating }}
 {% endfor %}
 
