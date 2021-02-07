@@ -4,12 +4,11 @@ You can use the [editor on GitHub](https://github.com/lara-spearman/hello-world/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 Members should appear here
-  <li>
+ 
+ 
+{{ courses.course }}
+{{ courses.rating }}
     
-      {{ courses.course }}
-      {{ courses.rating }}
-    
-  </li>
 
 
 
