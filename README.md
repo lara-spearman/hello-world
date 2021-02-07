@@ -12,15 +12,8 @@ Members should appear here
 {% endif %}
     
 {% if site.data.courses %}
- This is first course {{ site.data.courses[0].course }}
-{% endif %}
-
-{% if site.data.courses %}
- This is first course {{ site.data.courses[page.course] }}
-{% endif %}
-
-{% if site.data.trial %}
- Trying stuff {{site.data.trial[1] }}
+ Course 1: {{ site.data.courses[0].course }}
+ Course 2: {{ site.data.courses[1].course }}
 {% endif %}
 
 
