@@ -6,8 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Members should appear here
  
  
-{{ courses.course }}
-{{ courses.rating }}
+{{ data_.courses.course }}
+{{ data.courses.rating }}
     
 
 
