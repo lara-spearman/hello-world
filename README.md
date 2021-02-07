@@ -7,8 +7,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 #This should appear as a dropdown
 <details>
             <summary> This should reveal a list </summary>
+            
             1. Course list 
             2. rating of course
+            
             </details>
 ```{r}
 # Source: http://www.htmlwidgets.org/showcase_plotly.html
