@@ -12,8 +12,10 @@ Members should appear here
 {% endif %}
     
 {% if site.data.courses %}
+<li>
  Course 1: {{ site.data.courses[0].course }}
  Course 2: {{ site.data.courses[1].course }}
+</li>
 {% endif %}
 
 
