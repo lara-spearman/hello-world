@@ -14,7 +14,11 @@ Members should appear here
 {% if site.data.courses %}
 <ul>
  <li>
+  <details>
+   <summary> 
  Course 1: {{ site.data.courses[0].course }}
+   </summary>
+  </details>
  </li>
  <li>
  Course 2: {{ site.data.courses[1].course }}
