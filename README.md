@@ -5,14 +5,17 @@ You can use the [editor on GitHub](https://github.com/lara-spearman/hello-world/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 Members should appear here
 <ul>
-{% for member in site.data.members %}
+{% for member in site.data.courses %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
+    <a >
+      {{ course.name }}
+      {{ course.rating }}
     </a>
   </li>
 {% endfor %}
 </ul>
+
+
 
 #This should appear as a dropdown
 <details>
