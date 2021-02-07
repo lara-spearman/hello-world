@@ -7,7 +7,7 @@ Members should appear here
  
 {{ page.title }}
  
-{{ data_.courses.course }}
+{{ _data.courses.course }}
 {{ data.courses.rating }}
     
 
