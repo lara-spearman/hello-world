@@ -15,6 +15,10 @@ Members should appear here
  This is first course {{ site.data.courses[0].course }}
 {% endif %}
 
+{% if site.data.courses %}
+ This is first course {{ site.data.courses[page.course] }}
+{% endif %}
+
 {% if site.data.trial %}
  Trying stuff {{site.data.trial[1] }}
 {% endif %}
