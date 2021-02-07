@@ -15,7 +15,7 @@ Members should appear here
  This is first course {{ site.data.courses[course] }}
 {% endif %}
 
-{{ site.data.courses }}
+{{ site.data.courses[course] }}
 
 
 
@@ -28,6 +28,7 @@ Members should appear here
             
 </details>
 
+{{ site.data.courses.course }}
 
 ### Contents of this page 
 1. Trial review page
