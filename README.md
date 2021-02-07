@@ -7,10 +7,10 @@ Members should appear here
 <ul>
 {% for member in site.data.courses %}
   <li>
-    <a >
-      {{ course.name }}
-      {{ course.rating }}
-    </a>
+    
+      course.name
+      course.rating
+    
   </li>
 {% endfor %}
 </ul>
