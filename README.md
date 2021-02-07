@@ -11,15 +11,21 @@ Members should appear here
  Show {{ page.title }}
 {% endif %}
     
+{% assign course1 = site.data.courses.course | where "course", "A" %}
+
+Course 1: 
+{% for course in site.data.courses.course %}
+-{{ site.data.courses.rating }}
+{% endfor %}
+
+
 {% if site.data.courses %}
 <ul>
  <li>
   <details>
    <summary> 
  Course 1: {{ site.data.courses.course =="A" }}
-     {% if site.data.courses.course =="A" %}
-   {{ site.data.courses.rating }}
-   {% endif %}
+     {{ site.data.courses[1:2].rating }}
    </summary>
   </details>
  </li>
