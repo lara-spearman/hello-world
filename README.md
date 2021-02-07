@@ -14,9 +14,10 @@ Members should appear here
 {% if site.data.courses %}
  This is first course {{ site.data.courses[0] }}
 {% endif %}
-Update
-{{ site.data.courses[0] }}
 
+{% if site.data.trial %}
+ Trying stuff {{site.data.trial[1] }}
+{% endif %}
 
 
 #This should appear as a dropdown
