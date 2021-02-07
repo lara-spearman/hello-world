@@ -11,7 +11,7 @@ Members should appear here
  Show {{ page.title }}
 {% endif %}
     
-{{ site.data }}
+{{ site.data.courses }}
 
 
 
