@@ -11,7 +11,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
             1. Course list 
             2. rating of course
             
-            </details>
+</details>
 ```{r}
 # Source: http://www.htmlwidgets.org/showcase_plotly.html
 library(plotly)
