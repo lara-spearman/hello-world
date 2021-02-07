@@ -17,8 +17,10 @@ Members should appear here
   <details>
    <summary> 
  Course 1: {{ site.data.courses.course =="A" }}
+     {% if site.data.courses.course =="A" %}
+   {{ site.data.courses.course.rating }}
+   {% endif %}
    </summary>
-   {{ site.data.courses[0].rating }}
   </details>
  </li>
  <li>
