@@ -12,13 +12,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
             2. rating of course
             
 </details>
-```{r}
-# Source: http://www.htmlwidgets.org/showcase_plotly.html
-library(plotly)
-p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
-            geom_bar(position = "dodge")
-ggplotly(p)
-```
+
 
 ### Contents of this page 
 1. Trial review page
