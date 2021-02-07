@@ -7,8 +7,8 @@ Members should appear here
  
 {{ page.title }}
  
-{% if courses %}
- Show {{ courses.course }}
+{% if page.title %}
+ Show {{ page.title }}
 {% endif %}
     
 
