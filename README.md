@@ -12,7 +12,7 @@ Members should appear here
 {% endif %}
     
 {% if site.data.courses %}
- This is first course {{ site.data.courses[0] }}
+ This is first course {{ site.data.courses[0].course }}
 {% endif %}
 
 {% if site.data.trial %}
