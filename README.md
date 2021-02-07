@@ -3,6 +3,13 @@
 You can use the [editor on GitHub](https://github.com/lara-spearman/hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+#This should appear as a dropdown
+<details>
+            <summary> This should reveal a list </summary>
+            1. Course list 
+            2. rating of course
+            </details>
 ```{r}
 # Source: http://www.htmlwidgets.org/showcase_plotly.html
 library(plotly)
